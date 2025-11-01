@@ -1,5 +1,0 @@
-CompileFlags:
-  Add: 
-    - -I${project_root}/include
-    - -L${project_root}/lib
-  CompilationDatabase: build
