@@ -1,8 +1,8 @@
 #!/bin/bash
 
 game_name="owl"
-if [ -n "$prog_name" ] && [ "$prog_name" != "null" ]; then
-    game_name="$prog_name"
+if [ -n "$PROJ_NAME" ] && [ "$PROJ_NAME" != "null" ]; then
+    game_name="$PROJ_NAME"
 fi
 
 echo "Building game: $game_name"
